@@ -1,0 +1,11 @@
+1
+Темный переулок
+Тут холодно и сыро. Воняет мусором.
+location_out
+2
+Пройти к освещенному переулку
+conditions
+END
+change varialbes
+END
+END

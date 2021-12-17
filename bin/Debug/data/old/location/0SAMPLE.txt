@@ -1,0 +1,20 @@
+int ID
+string NAME
+string INFO
+{//location_out
+ int LOCATION --возможно, стоит перенести в (change varialbes), но тогда добавить ID для чтения в button_location_reaction
+ string button_text
+ //conditions
+  {VAR
+  RESULT
+  EQUAL
+  ...}
+ END
+ //change varialbes
+  {VAR
+  RESULT
+  EQUAL
+  ...}
+ END
+ ...}
+END
