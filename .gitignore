@@ -1,7 +1,8 @@
+
 Project55.csproj
 Form1.resx
 App.config
-Properties\
-obj\
-bin\
-build\
+Properties/
+obj/
+bin/
+build/
