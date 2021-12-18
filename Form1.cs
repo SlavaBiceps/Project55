@@ -19,6 +19,10 @@ namespace Project55
             WindowState = FormWindowState.Maximized;
             info = new RichTextBox();
             stats = new RichTextBox();
+
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.InitialDirectory = "c:\\";
+            openFileDialog.RestoreDirectory = true;
         }
 
         public void Form1_Load(object sender, EventArgs e)
@@ -254,6 +258,8 @@ namespace Project55
         private void read_quests()
         {
             StreamReader file = new StreamReader("data/quests.txt");
+            info.AppendText(System.IO.Path.GetDirectoryName(
+                    System.Reflection.Assembly.GetExecutingAssembly().Location)+"\n");
             string quest_string = file.ReadLine();
             while (quest_string != "END")
             {

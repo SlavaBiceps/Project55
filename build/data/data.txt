@@ -1,0 +1,10 @@
+current location
+Переулок Колсо
+
+time
+100
+
+state
+none
+
+END
