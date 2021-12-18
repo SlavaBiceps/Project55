@@ -258,8 +258,6 @@ namespace Project55
         private void read_quests()
         {
             StreamReader file = new StreamReader("data/quests.txt");
-            info.AppendText(System.IO.Path.GetDirectoryName(
-                    System.Reflection.Assembly.GetExecutingAssembly().Location)+"\n");
             string quest_string = file.ReadLine();
             while (quest_string != "END")
             {
