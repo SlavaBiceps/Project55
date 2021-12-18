@@ -19,10 +19,6 @@ namespace Project55
             WindowState = FormWindowState.Maximized;
             info = new RichTextBox();
             stats = new RichTextBox();
-
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.InitialDirectory = "c:\\";
-            openFileDialog.RestoreDirectory = true;
         }
 
         public void Form1_Load(object sender, EventArgs e)
