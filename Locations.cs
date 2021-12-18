@@ -763,7 +763,7 @@ namespace Project55
                 
                 location.types["open air"] = 1;
             }
-            if (location_number == "Переулок Колсо2")
+            if (location_number == "Переулок Колсо3")
             {
                 location.name = "Переулок Колсо";
                 location.info = "Переулок Колсо - \n";
